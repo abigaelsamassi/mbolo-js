@@ -1,10 +1,11 @@
 var moyenne;
+
 alert("Chaque reponse de ce questionaire vous a procuré des points nous voulons connaitre votre moyenne obtenue.");
-moyenne= prompt("indiquez votre moyenne.");
+moyenne = prompt("indiquez votre moyenne.");
 
 while (moyenne < 0 || moyenne >20) {
 	alert("Désolé la note saisie n'est pas conprise dans la marge de la moyenne.");
-	moyenne= prompt("indiquez votre moyenne.");
+	moyenne = prompt("indiquez votre moyenne.");
 
 }
 
